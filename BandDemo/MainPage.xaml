@@ -1,0 +1,34 @@
+﻿<Page
+    x:Class="BandDemo.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:BandDemo"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <TextBlock x:Name="AccelerometerXLabel" HorizontalAlignment="Left" Margin="10,10,0,0" TextWrapping="Wrap" Text="Accelerometer X" VerticalAlignment="Top" FontSize="24"/>
+        <TextBlock x:Name="AccelerometerXValue" HorizontalAlignment="Left" Margin="210,10,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" FontSize="24" Width="180" TextAlignment="Right"/>
+        <TextBlock x:Name="AccelerometerYLabel" HorizontalAlignment="Left" Margin="10,44,0,0" TextWrapping="Wrap" Text="Accelerometer Y" VerticalAlignment="Top" FontSize="24"/>
+        <TextBlock x:Name="AccelerometerYValue" HorizontalAlignment="Left" Margin="210,44,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" FontSize="24" Width="180" TextAlignment="Right"/>
+        <TextBlock x:Name="AccelerometerZLabel" HorizontalAlignment="Left" Margin="10,78,0,0" TextWrapping="Wrap" Text="Accelerometer Z" VerticalAlignment="Top" FontSize="24"/>
+        <TextBlock x:Name="AccelerometerZValue" HorizontalAlignment="Left" Margin="210,78,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" FontSize="24" Width="180" TextAlignment="Right"/>
+        
+        <TextBlock x:Name="GyroscopeXLabel" HorizontalAlignment="Left" Margin="10,112,0,0" TextWrapping="Wrap" Text="Gyroscope X" VerticalAlignment="Top" FontSize="24" />
+        <TextBlock x:Name="GyroscopeXValue" HorizontalAlignment="Left" Margin="210,112,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" FontSize="24" Width="180" TextAlignment="Right"/>
+        <TextBlock x:Name="GyroscopeYLabel" HorizontalAlignment="Left" Margin="10,146,0,0" TextWrapping="Wrap" Text="Gyroscope Y" VerticalAlignment="Top" FontSize="24" />
+        <TextBlock x:Name="GyroscopeYValue" HorizontalAlignment="Left" Margin="210,146,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" FontSize="24" Width="180" TextAlignment="Right"/>
+        <TextBlock x:Name="GyroscopeZLabel" HorizontalAlignment="Left" Margin="10,180,0,0" TextWrapping="Wrap" Text="Gyroscope Z" VerticalAlignment="Top" FontSize="24" />
+        <TextBlock x:Name="GyroscopeZValue" HorizontalAlignment="Left" Margin="210,180,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" FontSize="24" Width="180" TextAlignment="Right"/>
+        
+        <TextBlock x:Name="HeartRateLabel" HorizontalAlignment="Left" Margin="10,214,0,0" TextWrapping="Wrap" Text="Heart Rate" VerticalAlignment="Top" FontSize="24" />
+        <TextBlock x:Name="HeartRateValue" HorizontalAlignment="Left" Margin="210,214,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" FontSize="24" Width="180" TextAlignment="Right"/>
+        
+        <TextBlock x:Name="StatusLabel" HorizontalAlignment="Left" Margin="10,601,0,0" TextWrapping="Wrap" Text="Connecting..." VerticalAlignment="Top" FontSize="24" />
+
+        <TextBlock x:Name="LogLabel" HorizontalAlignment="Left" Margin="10,248,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="283" Width="380" FontSize="13.333"/>
+
+    </Grid>
+</Page>
