@@ -280,6 +280,8 @@ namespace BandDemo
             await App.BandClient.SensorManager.HeartRate.StopReadingsAsync();
             await App.BandClient.SensorManager.SkinTemperature.StopReadingsAsync();
 
+            App.BandClient.Dispose();
+
             App.BandClient = null;
 
             StatusLabel.Text = "Disconnected.";
