@@ -139,6 +139,8 @@ namespace BandDemo
                 await App.BandClient.SensorManager.Gyroscope.StopReadingsAsync();
                 await App.BandClient.SensorManager.HeartRate.StopReadingsAsync();
 
+                App.BandClient.Dispose();
+
                 App.BandClient = null;
             }
 
